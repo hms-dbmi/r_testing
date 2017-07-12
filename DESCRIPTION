@@ -1,6 +1,6 @@
 Package: RTesting
 Title: Basic example of a unit test in R
-Version: 0.1
+Version: 1.0
 Authors@R: person("Scott", "Ouellette", email = "scottx611x@gmail.com",
   role = c("aut", "cre"))
 Description: Basic example of a unit test in R.
