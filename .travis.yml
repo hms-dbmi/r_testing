@@ -12,21 +12,6 @@ r:
   - release
   - devel
 
-before_script:
-  - if [ -n "TRAVIS_TAG" ]; then echo $TRAVIS_REPO_SLUG - $TRAVIS_TAG > ./release.txt; fi
-
-# Create Github releases when successful tagged builds are pushed
-deploy:
-   provider: releases
-   api_key:
-       secure: "iRDVFq2EsCNtchC7ad/IP/6UBIUf4UFpggCx5t8QSrz3xoFoUzzyK8DsCBYJWeUHkJQhP105vqkNenoLkPDvlWLjsT9GR2MtLzKLoLOSnZ+WTGtXaCJoXw7gf14i1muWSKyLRd7Wkq9d7OlZorQjnAO4Sdiu6KLQ2t214JLBiMX2BYZCKK70peb4xAC8lryJkXv/ckyKsTUDzI8q40a+jKp5FBR0NJSO2TNXP6AsJEJEPA56Qc08q8XkINGXuJzVJAz55Mg5sSWmFUxuS07/dEt1aH7pZICZ1FcNa+Mn7gedHW9gSKc4WgdTo8vVNCwT1vmSJK0b3NV+pXzEkWzf11kd/2Lu9rM8uMm5SSkMSuXn130d1ZZiV1CmV6vtw0NXXFKvIm2KOUfoi1MEAB1Zf5EjahbnEyYSNELxxVie4iwER0dMyDq88JJecLxfWpBhk37enbvjTnMDbskhNvtWEloEKaf1NCtaex8gZejTg6jPKCfmCDK3pW9QO/dIrmAx6EQBqPFMa214SKrC9lf1XdOLlhutyfj2g7AxtSGTQSdKLNNhvFRu6+sxwk18jCXHt8i8kQvn8dYCxM3b0FfWTdvh0pi7bmfBkm2NZF3iJ4/ayB/lUVRgXwX2vvw9Obf4nS35M+ZpcvuYN3p+Hq19Rr2f/NvRF9ldeAogyPN1/YI="
-   skip_cleanup: true
-   files:
-    - ./release.txt
-   on:
-       repo: hms-dbmi/r_testing
-       tags: true
-
 # Upload CodeCov information
 after_success:
   - Rscript -e 'covr::codecov()'
