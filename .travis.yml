@@ -24,7 +24,7 @@ deploy:
    files:
     - ./release.txt
    on:
-       repo: hms-dbmi/r_testing
+       repo: scottx611x/r_testing
        tags: true
 
 # Upload CodeCov information
