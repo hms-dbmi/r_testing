@@ -26,6 +26,7 @@ DONE ===========================================================================
 
 #### In short, this will:
     - Check the R code and package structure for consistency with R's best practices.
-    - Run the prior check against 3 different R versions.
+    - Run the prior checks against 3 different R versions.
+    - Upload R code coverage information to CodeCov
     - Make new releases on Github when you introduce a tag
     - Send an email if these prior checks fail
