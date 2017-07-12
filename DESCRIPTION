@@ -5,7 +5,7 @@ Authors@R: person("Scott", "Ouellette", email = "scottx611x@gmail.com",
   role = c("aut", "cre"))
 Description: Basic example of a unit test in R.
 Depends: R (>= 3.1.0)
-Imports: devtools, testthat
+Imports: devtools
 Suggests: testthat
 License: MIT
 Author: Scott Ouellette
