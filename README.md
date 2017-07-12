@@ -1,4 +1,5 @@
-# R Testing [![Build Status](https://travis-ci.org/scottx611x/r_testing.svg?branch=master)](https://travis-ci.org/scottx611x/r_testing)
+# R Testing [![Build Status](https://travis-ci.org/scottx611x/r_testing.svg?branch=master)](https://travis-ci.org/scottx611x/r_testing) [![codecov](https://codecov.io/gh/scottx611x/r_testing/branch/master/graph/badge.svg)](https://codecov.io/gh/scottx611x/r_testing)
+
 
 ## Installation:
 - Install R for you [specific host enviornment](https://cran.r-project.org/bin/).
