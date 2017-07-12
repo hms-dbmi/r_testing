@@ -20,7 +20,7 @@ after_success:
  deploy:
      provider: releases
      api_key:
-         secure: <your key>
+         secure: "H7oqoiTw26HFaWpRNUR5lGNJfT0xueQsEKq5HtnYqKdXmeCQfCM316xf8sxo7HHZbSa4N0xwavHeC7qlqXiuAEtgmGZGZAXcoNY5eNcGV/yN/tfNiLuW2VpKWkdhsTrwRp9/nvHngsW1Jx00BTIFTpRLc61iO+j+ejPGXdC/c2RpcmqhJrZudhkS6oQDhENicaTjznsvdMIE0C2o5ampc3UWzsizzKyP1xdQjeFvijmWkpjoSMpLWzL32A8IDiriA5An1mmnnDG/DxEU2tcE9Uer+eef40kg7+/9BZ/Zuy4poN6D1AkZsifffIdTB4HstU6OVYXkQqQRTFthgwvDeSpXYxovLjvr0RosFbvoUxaRPK1MxKuo7F0EbsrzsswnJgWqefybdVGWiwH3BO9JAItfCZBBYaWKTo3OUFrLGYUQk78XKhbfxDgd30dwClYrT0O1PzbIhez+dX6VO3/oSk5lfa/8nlAfAnAP64xm2OSZd/JS3g6LWs9VLsop0gidMQotPjcWvnw6MYy50bxED++18EU4ze/HFnvsWJrfCtqglWY+dCz2Cn3eMU7jvEsqcjCKkg15/h8S0lQpooQWlmBuFDWNRL+N+FtBcq194TdJUWDV9fjp0U2/+IZ6zHeUaeSzIOb54Bbhn/NwIqgWU6rU/Pye62E0BZ7c/ui/x+I="
      skip_cleanup: true
      on:
          repo: scottx611x/r_testing
