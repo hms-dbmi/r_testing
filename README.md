@@ -3,13 +3,14 @@
 
 ## Installation:
 - Install R for you [specific host enviornment](https://cran.r-project.org/bin/).
-- Clone this repo and `$ cd r_testing`
+- Clone this repo change directory into: `r_testing`
+- Install R devtools: 
+``` r
+> install.packages("devtools", dependencies = TRUE)`
+```
 
 ## Running Tests
-- Run these R commands:
-
-``` 
-> install.packages("devtools", dependencies = TRUE)
+``` r
 > devtools::test()
 ```
 - The example test should run and you will see output like so:
