@@ -1,4 +1,4 @@
-# R Testing [![Build Status](https://travis-ci.org/scottx611x/r_testing.svg?branch=master)](https://travis-ci.org/scottx611x/r_testing) [![codecov](https://codecov.io/gh/scottx611x/r_testing/branch/master/graph/badge.svg)](https://codecov.io/gh/scottx611x/r_testing)
+# R Testing [![Build Status](https://travis-ci.org/hms-dbmi/r_testing.svg?branch=master)](https://travis-ci.org/hms-dbmi/r_testing) [![codecov](https://codecov.io/gh/hms-dbmi/r_testing/branch/master/graph/badge.svg)](https://codecov.io/gh/hms-dbmi/r_testing)
 
 
 ## Installation:
