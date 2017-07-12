@@ -1,0 +1,12 @@
+Package: RTesting
+Title: Basic example of a unit test in R
+Version: 0.1
+Authors@R: person("Scott", "Ouellette", email = "scottx611x@gmail.com",
+  role = c("aut", "cre"))
+Description: Basic example of a unit test in R.
+Depends: R (>= 3.1.0)
+Imports: devtools, testthat
+Suggests: testthat
+License: MIT
+Author: Scott Ouellette
+Maintainer: Scott Ouellette <scottx611x@gmail.com>

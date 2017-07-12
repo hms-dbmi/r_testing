@@ -1,0 +1,27 @@
+sudo: false
+cache: packages
+
+language: r
+
+r_packages:
+  - testthat
+
+r_github_packages:
+  - jimhester/covr
+
+r:
+  - oldrel
+  - release
+  - devel
+
+after_success:
+  - Rscript -e 'covr::codecov()'
+
+ deploy:
+     provider: releases
+     api_key:
+         secure: <your key>
+     skip_cleanup: true
+     on:
+         repo: scottx611x/r_testing
+         tags: true
