@@ -10,3 +10,4 @@ Suggests: testthat
 License: MIT
 Author: Scott Ouellette
 Maintainer: Scott Ouellette <scottx611x@gmail.com>
+RoxygenNote: 6.0.1

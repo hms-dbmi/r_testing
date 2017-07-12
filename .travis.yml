@@ -9,14 +9,17 @@ r_packages:
 r_github_packages:
   - jimhester/covr
 
+# Run R package checks and tests against 3 R versions
 r:
   - oldrel
   - release
   - devel
 
+# Upload CodeCov information
 after_success:
   - Rscript -e 'covr::codecov()'
 
+# Create Github releases when successful tagged builds are pushed
 deploy:
    provider: releases
    api_key:

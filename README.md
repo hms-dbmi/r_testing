@@ -8,7 +8,6 @@
 - Run these R commands:
 
 ``` 
-r_testing $ r
 > install.packages("devtools", dependencies = TRUE)
 > devtools::test()
 ```
@@ -22,7 +21,7 @@ DONE ===========================================================================
 ```
 
 ## Continuous Integration:
-- See the `.travis.yml` file in this directory for information on what the CI process will do.
+- See the [`.travis.yml`](https://github.com/scottx611x/r_testing/blob/master/.travis.yml) file in this directory for information on what the CI process will do.
 
 #### In short, this will:
     - Check the R code and package structure for consistency with R's best practices.
